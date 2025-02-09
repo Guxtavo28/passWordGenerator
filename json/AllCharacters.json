@@ -1,0 +1,91 @@
+{
+    "latino": {
+      "maiusculas": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "minusculas": "abcdefghijklmnopqrstuvwxyz",
+      "quantidade": 26
+    },
+    "cirilico": {
+      "maiusculas": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+      "minusculas": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+      "quantidade": 33
+    },
+    "grego": {
+      "maiusculas": "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
+      "minusculas": "αβγδεζηθικλμνξοπρστυφχψω",
+      "quantidade": 24
+    },
+    "hebraico": {
+      "letras": "אבגדהוזחטיכלמנסעפצקרשת",
+      "quantidade": 22
+    },
+    "arabe": {
+      "letras": "أبجددهوزحطيكلمنسعفصقرشتثخذضظغ",
+      "quantidade": 28
+    },
+    "devanagari": {
+      "letras": "अआइईउऊऋऌएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह",
+      "quantidade": 46
+    },
+    "bopomofo": {
+      "letras": "ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ",
+      "quantidade": 37
+    },
+    "hangul": {
+      "letras": "가각간갈감갑갓강개객갠갤갬갭갯갱거게겨견결경계고과곽관광괴교구국군굳궈권귀규균극근글금급기긴길김깅깊까깎깜깝깟깨꺠꺼꺾껀껄껌껍껏껑께꼈꼬꼬꼭꼴꼼꼽꽃꽂꾀꾼",
+      "quantidade": 51
+    },
+    "hiragana": {
+      "letras": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
+      "quantidade": 46
+    },
+    "katakana": {
+      "letras": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン",
+      "quantidade": 46
+    },
+    "tailandes": {
+      "letras": "กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผพฟภมยรลวศษสหฬอฮ",
+      "quantidade": 44
+    },
+    "armenio": {
+      "maiusculas": "ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖ",
+      "minusculas": "աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆ",
+      "quantidade": 39
+    },
+    "georgiano": {
+      "letras": "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+      "quantidade": 33
+    },
+    "etíope": {
+      "letras": "ሀሁሂሃሄህሆለሉሊላሌልሎሐሑሒሓሔሕሖመሙሚማሜምሞረሩሪራሬርሮሰሱሲሳሴስሶሸሹሺሻሼሽሾቀቁቂቃቄቅቆበቡቢባቤብቦቨቩቪቫቬቭቮተቱቲታቴት",
+      "quantidade": 33
+    },
+    "cherokee": {
+      "letras": "ᎠᎡᎢᎣᎤᎥᎦᎧᎨᎩᎪᎫᎬᎭᎮᎯᎰᎱᎲᎳᎴᎵᎶᎷᎸᎹᎺᎻᎼᎽ",
+      "quantidade": 85
+    },
+    "tibetano": {
+      "letras": "ཀཁགངཅཆཇཉཏཐདནཔཕབམཙཚཛཝཞཟའཡརལཤཥསཧཨ",
+      "quantidade": 30
+    },
+    "runico": {
+      "letras": "ᚠᚢᚦᚨᚱᚲᚷᚹᛁᛃᛇᛈᛉᛋᛏᛒᛗᛚᛜᛟᛞ",
+      "quantidade": 24
+    },
+    "linear_b": {
+      "letras": "𐀀𐀁𐀂𐀃𐀄𐀅𐀆𐀇𐀈𐀉𐀊𐀋𐀌𐀍𐀎𐀏𐀐𐀑𐀒𐀓𐀔𐀕𐀖𐀗",
+      "quantidade": 87
+    },
+    "deseret": {
+      "letras": "𐐀𐐁𐐂𐐃𐐄𐐅𐐆𐐇𐐈𐐉𐐊𐐋𐐌𐐍𐐎𐐏𐐐𐐑𐐒𐐓𐐔𐐕𐐖𐐗𐐘𐐙𐐚𐐛𐐜𐐝𐐞𐐟",
+      "quantidade": 38
+    },
+    "osmanya": {
+      "letras": "𐒀𐒁𐒂𐒃𐒄𐒅𐒆𐒇𐒈𐒉𐒊𐒋𐒌𐒍𐒎𐒏",
+      "quantidade": 27
+    },
+    "vai": {
+      "letras": "ꔀꔁꔂꔃꔄꔅꔆꔇꔈꔉꔊꔋꔌꔍꔎꔏꔐꔑꔒꔓꔔꔕꔖꔗ",
+      "quantidade": 31
+    }
+  }
+  
