@@ -214,4 +214,88 @@ public class Gerador {
 
         return finalData;
     }
+
+
+
+    public static String jsonReader(String kindOfData, String letterCase){
+        String finalData = "null";
+        
+        try {
+            String caminhoJson = "D:/Documentos/Treino Java/json/allCharacters.json";
+
+            // Le o conteúdo do arquivo JSON
+            String jsonContent = new String(Files.readAllBytes(Paths.get(caminhoJson)));
+            
+            Gson gson = new Gson();
+
+            //Serializa o JSON (Converde de arquivo json pra um JsonObject)
+            JsonObject jsonObject = gson.fromJson(jsonContent, JsonObject.class);
+
+            //Tipo do dado/alfabeto
+            JsonObject dataType = jsonObject.getAsJsonObject(kindOfData);
+
+            //obtendo valor q eu quero
+            finalData = dataType.get(letterCase).getAsString();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return finalData;
+    }
+
+    public static int  numberOfCharacters(String kindOfData){
+        int finalData = 0;
+
+        try {
+            String caminhoJson = "D:/Documentos/Treino Java/json/allCharacters.json";
+
+            // Le o conteúdo do arquivo JSON
+            String jsonContent = new String(Files.readAllBytes(Paths.get(caminhoJson)));
+            
+            Gson gson = new Gson();
+
+            //Serializa o JSON (Converde de arquivo json pra um JsonObject)
+            JsonObject jsonObject = gson.fromJson(jsonContent, JsonObject.class);
+
+            //Tipo do dado/alfabeto
+            JsonObject dataType = jsonObject.getAsJsonObject(kindOfData);
+
+            //obtendo valor q eu quero
+            finalData = Integer.parseInt(dataType.get("quantidade").getAsString());  
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return finalData;
+    }
+
+    public static String jsonReader(String kindOfData, String letterCase){
+        String finalData = "null";
+        
+        try {
+            String caminhoJson = "D:/Documentos/Treino Java/json/allCharacters.json";
+
+            // Le o conteúdo do arquivo JSON
+            String jsonContent = new String(Files.readAllBytes(Paths.get(caminhoJson)));
+            
+            Gson gson = new Gson();
+
+            //Serializa o JSON (Converde de arquivo json pra um JsonObject)
+            JsonObject jsonObject = gson.fromJson(jsonContent, JsonObject.class);
+
+            //Tipo do dado/alfabeto
+            JsonObject dataType = jsonObject.getAsJsonObject(kindOfData);
+
+            //obtendo valor q eu quero
+            finalData = dataType.get(letterCase).getAsString();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return finalData;
+    }
+
 }
